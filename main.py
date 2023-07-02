@@ -13,6 +13,7 @@ class MyBot(commands.Bot):
 
         self.initial_extension = [
             "Cogs.역할부여",
+            "Cogs.입장메시지",
         ]
 
     async def setup_hook(self):
